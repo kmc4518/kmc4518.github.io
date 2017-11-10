@@ -4,7 +4,7 @@
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
-    background-image: url("/room_game/images/door.jpg");
+    background-image: url("https://github.com/kmc4518/kmc4518.github.io/blob/master/images/door.jpg?raw=true");
     background-repeat: no-repeat;
     display: block;
 
