@@ -1,0 +1,30 @@
+#square-container {
+    margin: 0 auto;
+    display: table-cell;
+    height: 90vh;
+    width: 100vw;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.square {
+    margin: auto;
+    display: inline-block;
+    background-color: white;
+    border: 6px black solid;
+    height: 12.5%;
+    width: 50%;
+}
+
+#correct {
+    height: 12.5%;
+    width: 50%;
+}
+
+#lives-container{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}

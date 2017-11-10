@@ -1,0 +1,41 @@
+// PSEUDOCODE for home.js
+
+//If user has cookie visted (true)
+
+//set value of variable count to cookie (count) 
+
+//else
+
+//give user cookie visted
+//set global varibale (count) to cookie w/ value (0)
+//set value of variable count to cookie (count)
+////////////////////////////////////////////////////
+
+//change count view depending on weither user has visted
+
+//WHEN COOKIES SET
+
+//set value of variable count to cookie (count)
+
+//If door click
+//increase the value of count cookie by 1 base of count variable
+//then
+//change count view
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//PSEUDOCODE for level1.js
+
+//INIT
+//Number of guesses equals 3
+//5 squares are assigned either incorrect or correct id tags
+
+//DOCUMENT READY
+//If user clicks incorrect id
+//num_guess--
+// square disappears
+// new correct assigned
+
+if user clicks the correct id
+// alert "you win!"
+// bring the user back to the home page
