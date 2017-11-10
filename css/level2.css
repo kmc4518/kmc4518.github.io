@@ -1,0 +1,12 @@
+#main-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.hidden-objective{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: red;
+}
