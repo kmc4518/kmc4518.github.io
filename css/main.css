@@ -4,7 +4,7 @@ html {
 
 .wrapper{
     height:100vh;
-    background-image: url("/room_game/images/entrance_image.jpg");
+    background-image: url("https://github.com/kmc4518/kmc4518.github.io/blob/master/images/entrance_image.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
