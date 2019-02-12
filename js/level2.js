@@ -16,8 +16,10 @@ $(function () {
 function randomizePos() {
         $().each(function (index) {
         var styles = {
-            left: ((Math.random() * ($('#main-container').width()-500))),
-            top: ((Math.random() * ($('#main-container').height()-500)))
+            // left: ((Math.random() * ($('#main-container').width()-500))),
+            // top: ((Math.random() * ($('#main-container').height()-500)))
+            left: ((Math.random() * ($('#main-container').width()))),
+            top: ((Math.random() * ($('#main-container').height())))
         };
 
         $(this).css(styles);
