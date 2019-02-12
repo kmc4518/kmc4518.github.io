@@ -48,11 +48,11 @@ function checkCount(c) {
         alert("-+-+-+-+-+-+-+-+- LEVEL 2 -+-+-+-+-+-+-+-+-")
         window.location = "level2.html"
     }
-    if (c == 1000) {
+    if (c == 200) {
         alert("-+-+-+-+-+-+-+-+- LEVEL 3 -+-+-+-+-+-+-+-+-")
         window.location = "level2.html"
     }
-    if (c == 10000) {
+    if (c == 300) {
         alert("-+-+-+-+-+-+-+-+- LEVEL 4 -+-+-+-+-+-+-+-+-")
         window.location = "level2.html"
     }
