@@ -50,12 +50,12 @@ function checkCount(c) {
     }
     if (c == 200) {
         alert("-+-+-+-+-+-+-+-+- LEVEL 3 -+-+-+-+-+-+-+-+-")
-        window.location = "level2.html"
+        window.location = "level3.html"
     }
-    if (c == 300) {
-        alert("-+-+-+-+-+-+-+-+- LEVEL 4 -+-+-+-+-+-+-+-+-")
-        window.location = "level2.html"
-    }
+    // if (c = 300) {
+    //     alert("-+-+-+-+-+-+-+-+- LEVEL 4 -+-+-+-+-+-+-+-+-")
+    //     window.location = "level4.html"
+    // }
 }
 
 function checkLvl(){

@@ -14,7 +14,7 @@ $(function () {
 });
 
 function randomizePos() {
-        $().each(function (index) {
+    $('.hidden-objective').each(function (index) {
         var styles = {
             // left: ((Math.random() * ($('#main-container').width()-500))),
             // top: ((Math.random() * ($('#main-container').height()-500)))
