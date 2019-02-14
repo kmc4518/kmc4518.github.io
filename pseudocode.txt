@@ -41,3 +41,24 @@ if user clicks the correct id
 // bring the user back to the home page
 
 ////////////////////////////////////////////////////////////////////////////////
+
+
+//PSEUDOCODE for level3
+
+//ON DOCUMENT READY
+create boolean variable for all correct set to false
+create array of all correct answers
+
+On submit button click
+// store entries of each box into array
+// if array of stored entries equals array of all correct
+// // set boolean true
+
+checkBool()
+if bool var for all correct is true
+// go back to home
+else
+// else
+// // alert "you lose!"
+// // clear count and go to level 1
+
