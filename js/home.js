@@ -52,10 +52,10 @@ function checkCount(c) {
         alert("-+-+-+-+-+-+-+-+- LEVEL 3 -+-+-+-+-+-+-+-+-")
         window.location = "level3.html"
     }
-    // if (c = 300) {
-    //     alert("-+-+-+-+-+-+-+-+- LEVEL 4 -+-+-+-+-+-+-+-+-")
-    //     window.location = "level4.html"
-    // }
+    if (c == 300) {
+        alert("-+-+-+-+-+-+-+-+- LEVEL 4 -+-+-+-+-+-+-+-+-")
+        window.location = "level4.html"
+    }
 }
 
 function checkLvl(){
