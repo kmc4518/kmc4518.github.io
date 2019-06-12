@@ -1,3 +1,5 @@
+// TO DO: Have a check for if all squares are gone -> go to next level
+
 randomizePos();
 
 
@@ -36,7 +38,7 @@ function checkObjectives(obj) {
     }
     else
     {
-        alert ("you lose!")
+        alert ("you lose!");
         Cookies.set('level', '0', { expires: 100 });
         window.location = "index.html";
     }

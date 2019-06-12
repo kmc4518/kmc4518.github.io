@@ -9,7 +9,8 @@
 //give user cookie visted
 //set global varibale (count) to cookie w/ value (0)
 //set value of variable count to cookie (count)
-////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////
 
 //change count view depending on weither user has visted
 
@@ -22,7 +23,7 @@
 //then
 //change count view
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 
 //PSEUDOCODE for level1.js
 
@@ -42,7 +43,6 @@ if user clicks the correct id
 
 ////////////////////////////////////////////////////////////////////////////////
 
-
 //PSEUDOCODE for level3
 
 //ON DOCUMENT READY
@@ -61,4 +61,30 @@ else
 // else
 // // alert "you lose!"
 // // clear count and go to level 1
+
+//////////////////////////////////////////////////////////////////////////////////
+
+// PSEUDOCODE for level4
+
+create array for keys that were pressed
+create array for the correct sequence
+
+// ON DOCUMENT READY
+
+if user presses one of the arrow key
+// add it to the array of key presses
+//    if array is at length 4
+//        run check function
+else
+// do nothing
+
+checkSequence()
+if userSequence === correctSequence
+// alert "congrats! you win!"
+// go to home
+
+
+
+
+
 
