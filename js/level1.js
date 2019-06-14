@@ -1,4 +1,3 @@
-
 function init() {
     var DEFAULT_LIVES = 3;
     var rand = Math.floor(Math.random() * $('.square').length);
@@ -9,41 +8,38 @@ function init() {
 
 init();
 
-$(function() {
+$(function () {
     var l = $('span#lives').html();
-    
-    $('div#incorrect').click(function() {
+
+    $('div#incorrect').click(function () {
         l = livesDown(l);
         setLives(l);
         $(this).remove();
         checkLives(getLives());
     });
 
-    $('#correct').click(function() {
-        alert ("you win!!!");
-        Cookies.set('level', '2', { expires: 100 });
+    $('#correct').click(function () {
+        alert("you win!!!");
+        Cookies.set('level', '2', {expires: 100});
         window.location = "index.html";
     });
 });
 
 function assignCorrect(c_index) {
     $(".square").each(function (index) {
-        if (index == c_index)
-        {
+        if (index == c_index) {
             $(this).attr('id', 'correct');
-            
-        }
-        else{
+
+        } else {
             $(this).attr('id', 'incorrect');
         }
     });
 }
 
 function checkLives(lives) {
-    if (lives == 0)
-    {
+    if (lives == 0) {
         alert("you lose!");
-        Cookies.set('level', '0', { expires: 100 });
+        Cookies.set('level', '0', {expires: 100});
         window.location = "index.html";
     }
 }

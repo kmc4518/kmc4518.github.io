@@ -1,10 +1,10 @@
 html {
-    font-family:Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    overflow:hidden
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    overflow: hidden
 }
 
-.wrapper{
-    height:100vh;
+.wrapper {
+    height: 100vh;
     background-image: url("https://github.com/kmc4518/kmc4518.github.io/blob/master/images/entrance_image.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,4 +17,4 @@ html {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
- }
+}

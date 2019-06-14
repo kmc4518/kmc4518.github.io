@@ -1,4 +1,4 @@
-#main-container{ 
+#main-container {
     margin: 0 auto;
     display: table-cell;
     height: 90vh;
@@ -19,7 +19,7 @@
     font-size: 32px;
 }
 
-.answer{
-    padding-top:50px;
-    padding-bottom:20px;
+.answer {
+    padding-top: 50px;
+    padding-bottom: 20px;
 }

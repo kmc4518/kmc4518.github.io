@@ -74,7 +74,8 @@ create array for the correct sequence
 if user presses one of the arrow key
 // add it to the array of key presses
 //    if array is at length 4
-//        run check function
+//        checkSequence
+//        Erase the arrays contents
 else
 // do nothing
 
