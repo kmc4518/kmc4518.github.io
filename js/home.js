@@ -39,19 +39,19 @@ function getCount() {
 
 function checkCount(c) {
     if (c == 10) {
-        alert("-+-+-+-+-+-+-+-+- LEVEL 1 -+-+-+-+-+-+-+-+-")
+        alert("-+-+-+-+-+-+-+-+- LEVEL 1 -+-+-+-+-+-+-+-+-");
         window.location = "level1.html"
     }
     if (c == 100) {
-        alert("-+-+-+-+-+-+-+-+- LEVEL 2 -+-+-+-+-+-+-+-+-")
+        alert("-+-+-+-+-+-+-+-+- LEVEL 2 -+-+-+-+-+-+-+-+-");
         window.location = "level2.html"
     }
     if (c == 200) {
-        alert("-+-+-+-+-+-+-+-+- LEVEL 3 -+-+-+-+-+-+-+-+-")
+        alert("-+-+-+-+-+-+-+-+- LEVEL 3 -+-+-+-+-+-+-+-+-");
         window.location = "level3.html"
     }
     if (c == 300) {
-        alert("-+-+-+-+-+-+-+-+- LEVEL 4 -+-+-+-+-+-+-+-+-")
+        alert("-+-+-+-+-+-+-+-+- LEVEL 4 -+-+-+-+-+-+-+-+-");
         window.location = "level4.html"
     }
 }

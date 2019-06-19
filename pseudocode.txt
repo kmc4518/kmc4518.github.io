@@ -83,9 +83,3 @@ checkSequence()
 if userSequence === correctSequence
 // alert "congrats! you win!"
 // go to home
-
-
-
-
-
-
