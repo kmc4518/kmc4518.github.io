@@ -1,0 +1,14 @@
+#container {
+    margin: 0 auto;
+    display: table-cell;
+    height: 90vh;
+    width: 100vw;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+text {
+    font-size:48px;
+    color: cyan;
+}

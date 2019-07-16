@@ -66,4 +66,8 @@ function checkLvl() {
     if (level == '0') {
         Cookies.set('count', 0, {expires: 100});
     }
+
+    if (level == 'win') {
+
+    }
 }
